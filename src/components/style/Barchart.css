@@ -1,0 +1,127 @@
+.order-container {
+  width: 440px;
+  height: 388px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(134, 134, 134, 0.25);
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.indicator-headding {
+  background-color: #0d1f3d;
+  height: 60px;
+  color: #a7b4ca;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  padding-right: 20px;
+}
+.country-data-lists::-webkit-scrollbar {
+  width: 0;
+}
+.country-data-lists {
+  height: 300px;
+  overflow-x: scroll;
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.country-data-list {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  gap: 43px;
+}
+
+.little-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.order-number {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.country-and-flag {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  /* width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%; */
+}
+
+.order-listing-container {
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.country-and-flag {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+}
+
+/* width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%; */
+
+/* img {
+              width: 10px;
+              height: 10px;
+               height: auto;
+            } */
+
+.country-name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.flags {
+  width: 10px;
+  height: 10px;
+}
+.line-container {
+  width: 154px;
+  height: 11px;
+  background-color: #253041;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+
+ 
+}
+.line {
+  position: absolute;
+  background-color: #265d7e;
+  height: 11px;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.listing-headding {
+  display: flex;
+  gap: 107px;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+
+  
+}
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+  }
